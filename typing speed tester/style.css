@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(255, 250, 250);
+}
+#main{
+    text-align: center;
+}
+#welcome{
+    text-transform: capitalize;
+    color: rgb(247, 137, 137);
+    font-family:sans-serif;
+    text-shadow: 2px 2px #ff0000;
+    letter-spacing: 0.2px;
+}
+#typearea{
+    margin-top:70px;
+    /* padding: 100px 200px 150px 200px; */
+    width: 600px;
+    height:200px;
+}
+#btn{
+    display: block;
+    margin:20px 0px 0px 590px;
+    padding:5px 15px;
+    text-transform: capitalize;
+    font-family: 'Open Sans',sans-serif;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    color: white;
+    background:rgb(255, 103, 103);
+    border: 1px solid rgb(48,209,48);
+    border-radius: 4px;
+
+}
+#btn:hover{
+    transition:all 0.3s linear;
+    background : rgb(181, 216, 23);
+    color:black;
+}
+#text{
+    font-size: 100%;
+    margin:80px 300px -40px 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+    font-size: 150%;
+}
+/* #final-msg{
+    font-size: 150%;
+    margin:180px 300px 0px 300px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(181, 216, 23);
+} */
